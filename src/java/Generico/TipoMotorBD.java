@@ -1,7 +1,7 @@
 package Generico;
 
 public enum TipoMotorBD {
-    POSTGRESQL ("postgresql", "org.postgresql.Driver","compra_facturacion","postgres","123","5432","localhost"),
+    POSTGRESQL ("postgresql", "org.postgresql.Driver","compra_facturacion","postgres","dgtic123","5432","localhost"),
     MYSQL ("mysql","com.mysql.jdbc.Driver","laboratorio_sc","root","1","3306","localhost");
 
     private final String motorBD;
